@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:XLabs.Forms.Controls;assembly=XLabs.Forms"
+             x:Class="CheckBoxesDemo.MainPage"
+             Padding="20">
+
+        <StackLayout>
+            <Label Text="Check all that applies" FontSize="Large" />
+            <controls:CheckBox DefaultText="Comedy" HorizontalOptions="FillAndExpand"  />
+            <controls:CheckBox DefaultText="Action" HorizontalOptions="FillAndExpand" />
+            <controls:CheckBox DefaultText="Science Fiction" HorizontalOptions="FillAndExpand" />
+            <controls:CheckBox DefaultText="Romance" HorizontalOptions="FillAndExpand" />
+            <controls:CheckBox DefaultText="Animation" HorizontalOptions="FillAndExpand" />
+            <controls:CheckBox DefaultText="Suspense" HorizontalOptions="FillAndExpand" />
+            <controls:CheckBox DefaultText="Horror" HorizontalOptions="FillAndExpand" />
+            <controls:CheckBox DefaultText="Drama" HorizontalOptions="FillAndExpand" />
+        </StackLayout>
+
+</ContentPage>
